@@ -1,4 +1,31 @@
-nav.main{
+nav {
+    &.main{
+        background-color: azure;
+        box-shadow: 0 0 5px black;
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li{
+                list-style: none;
+                flex:  1 1 auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-width: 40pox;
+                &:first-child{
+                    justify-content: flex-start;
+                    
+                }
+                img{
+
+                }
+            }
+        }
+    }
+}
+
+/*nav.main{
     background-color: azure;
     box-shadow: 0 0 5px black;
 }
@@ -21,4 +48,4 @@ nav.main ul li:first-child{
 nav.main ul li img{
     max-width: 100px;
     height: auto;
-}
+}*/

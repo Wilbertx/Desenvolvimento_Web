@@ -11,6 +11,9 @@ html{
 
             .col-6{
                 flex-basis: 50%;
+                @media (max-width: 760px){
+                    flex-basis: 100%;
+                }
             }
             .col-4{
                 flex-basis: 33%;

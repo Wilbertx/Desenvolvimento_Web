@@ -12,12 +12,14 @@ nav {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                min-width: 40pox;
+                min-width: 40px;
                 &:first-child{
                     justify-content: flex-start;
                     
                 }
                 img{
+                    max-width: 100px;
+                    height: auto;
 
                 }
             }

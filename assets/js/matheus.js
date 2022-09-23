@@ -1,0 +1,1 @@
+!function(){"use strict";form,console.log("deu certo mano 🗿")}();
